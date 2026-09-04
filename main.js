@@ -27,7 +27,7 @@ window.onload = () => {
   
   //----------------------------------------
   downloadButton.onclick = () => {
-    download()
+    download(uploader.files[0].type)
   }
 
   //----------------------------------------
